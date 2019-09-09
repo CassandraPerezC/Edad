@@ -1,0 +1,132 @@
+
+h2.formulario{
+  font-size:38px;
+  padding: 0px 0px 0px 130px;
+  margin-bottom: 20px;
+  color:rgba(0,0,0,0.5);
+}
+
+form.Inicio{
+  margin: auto;
+  width: 50%;
+  max-width: 500px;
+    padding: 30px;
+    background-color: white;
+   
+}
+
+input{
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin: 30px 0;
+    font-size: 20px;
+    
+}
+
+input[type="submit"]{
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 20px;
+    margin-bottom: 0;
+    font-size: 20px;
+    background-color:crimson;
+    padding: 10px 40px;
+    color: black;
+}
+
+.input[type="submit"] boton2{
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 20px;
+    margin-bottom: 0;
+    font-size: 20px;
+    background-color:white;
+    padding: 10px 40px;
+    color: black;
+}
+
+input[type="submit"]:hover{
+  opacity: 1;
+}
+
+input[type="submit"]:active{
+  transform: scale(0.9);
+}
+
+@media(max-width:768px){
+  form.Inicio{
+     width: 75%;
+  }
+}
+
+
+@media(max-width:480px){
+  form.Inicio{
+     width: 95%;
+  }
+}
+
+form.formRegistro{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+}
+
+.contenedor-inputs{
+    padding: 5px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    
+}
+input.input-50{
+    width: 50%;
+}
+
+input.input-100{
+    width: 100%;
+}
+
+textarea.input200{
+  width: 200%;
+}
+
+
+input.btn-enviar{
+    background: crimson;
+    color:#fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input.btn-enviar:active{
+    transform: scale(1.05);
+}
+
+p.form-link{
+    width: 100%;
+    margin: 7px;
+    font-size: 18px;
+    text-align: center;
+}
+
+p.form-link2{
+    width: 100%;
+    margin: 7px;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+label{
+  font-size: 20px;
+}
