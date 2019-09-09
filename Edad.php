@@ -40,6 +40,7 @@ class Edad{
 			$actual= $mf['actual'];
 			$futura= $mf['fut'];
 	
+			
 			$fecha11 = new DateTime($nacimiento);
 			$fecha22 = new DateTime($actual);
 			$fecha2 = $fecha11->diff($fecha22);
@@ -47,12 +48,11 @@ class Edad{
 			echo "<br>";
 			echo "<br>";
 			$fecha1 = new DateTime($actual);
-$fecha2 = new DateTime($futura);
-$fecha = $fecha1->diff($fecha2);
-printf('Te quedan  %d años, %d meses, %d días' , $fecha->y, $fecha->m, $fecha->d);
-
-echo "<br>";
-
+			$fecha2 = new DateTime($futura);
+			$fecha = $fecha1->diff($fecha2);
+			printf('Te quedan  %d años, %d meses, %d días' , $fecha->y, $fecha->m, $fecha->d);
+			echo "<br>";
+			echo "<br>";
 
 
 			
